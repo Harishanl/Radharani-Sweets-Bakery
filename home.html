@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        .mySlides{display: none;}
+li{
+    background-color: orange;
+    height: 28px;
+    border-radius: 7px;
+}
+
+    </style>
+<title>Radharani Sweets & Bakery</title>
+</head>
+<body>
+    <h1 align="center"><font size="7">Radharani Sweets & Bakery<hr></font></h1>
+
+<table width="100%" border="0" bgcolor="green" style="color: white;" height="40px">
+  <tr>
+    <th  width="16.66%">HOME</th>
+    <th width="16.66% ">ABOUT</th>
+    <th width="16.66%">SWEETS</th>
+    <th width="16.66%">GALLERY</th>
+    <th width="16.66%">FEEDBACK</th>
+    <th width="16.66%">CONTACT</th>
+  </tr>
+</table>
+<br>
+<table width="100%" border="3" height="400px" bgcolor="black">
+    <tr>
+        <td  width="15%" bgcolor="green"><b><font color="white">MENU</font></b></td> 
+        <td width="65%" rowspan="12" class="w3-content w3-section">
+            <img src="b1.webp" class="mySlides" width="100%" height="100%">
+            <img src="b2..jpg" class="mySlides" width="100%" height="100%">
+            <img src="b3.webp" class="mySlides" width="100%" height="100%">
+            <img src="b4.webp" class="mySlides" width="100%" height="100%">
+           
+        </td>
+        <td width="20%" rowspan="6"><img src="b3.webp"></td>
+    </tr>
+    <tr>
+        <td  width="15%"><li>Agra petha</li></td>   
+    </tr>
+    <tr>
+        <td  width="15%"><li>Balushahi</li></td>
+    </tr>
+    <tr>
+        <td  width="15%"><li>Laddu</li></td>
+    </tr>
+    <tr>
+        <td  width="15%"><li>Boondi</li></td> 
+    </tr>
+    <tr>
+        <td  width="15%"><li>Gajar ka halwa</li></td>   
+    </tr>
+    <tr>
+        <td  width="15%"><li>Ghevar</li></td>
+        <td width="65%" rowspan="6"><img src="s9.webp"></td>
+    
+    </tr>
+    <tr>
+        <td  width="15%"><li>Imarti</li></td>
+    </tr>
+    <tr>
+        <td  width="15%"><li>Jelebi</li></td>
+    </tr>
+    <tr>
+        <td  width="15%"><li>Kaju katli</li></td>   
+    </tr>
+    <tr>
+        <td  width="15%"><li>Kalakand</li></td>
+    </tr>
+
+    <tr>
+        <td  width="15%"><li>Kheer</li></td>
+    </tr>
+</table>
+<p>
+ipsum dolor sit amet , consectetur adipisicing  elit ,sed  do eiusmod 
+tempor incididunt ut labore et  dolore magna alique. Ut enid  ad minim veniam ,
+qui
+</p>
+
+<script>
+    var myIndex=0;
+    carousel();
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for(i=0; i< x.length; i++){
+            x[i].style.display ="none";
+        }
+        myIndex++;
+        if(myIndex > x.length) {myIndex=1}
+        x[myIndex-1].style.display= "block";
+        setTimeout(carousel, 3000);
+    }
+</script>
+
+
+
+
+</body>
+
+
+</html>
